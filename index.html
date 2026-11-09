@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#fff8fa">
+  <meta name="description" content="文文寄给牛牛的一点点偏爱。小牛牛，Kiss Kiss。">
+  <title>给牛牛的一封情书 · 文文 ♡ 牛牛</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/heart.svg">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="progress" aria-hidden="true"></div>
+  <div id="petals" class="petals" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="文文和牛牛，返回首页">w <span>♡</span> n<span class="wordmark-caption">a little love letter</span></a>
+    <nav aria-label="主导航"><a href="#little-things">一点偏爱</a><a href="#quiz">心动小考卷</a><button class="sound-button" id="sound-toggle" aria-label="开启轻柔音乐" aria-pressed="false"><span class="sound-bars" aria-hidden="true"><i></i><i></i><i></i></span><span id="sound-label">声音关</span></button></nav>
+  </header>
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> ONLY FOR NIUNIU</p>
+        <p class="script intro-script">You, always.</p>
+        <h1 id="hero-title">把喜欢，<br>都寄给<span class="name">牛牛<svg viewBox="0 0 190 20" aria-hidden="true"><path d="M3 13 Q80 0 185 9 M25 18 Q108 7 168 15"/></svg></span>。</h1>
+        <p class="hero-note">今天也没什么特别的，<br>只是文文，又想亲亲你了。</p>
+        <button class="button primary" id="open-letter">拆开这封小情书 <span aria-hidden="true">↗</span></button>
+        <div class="signed"><span class="tiny-heart">♡</span><span>写给唯一的你</span><span class="signed-line"></span><span>From 文文</span></div>
+      </div>
+      <div class="hero-art" aria-label="Hello Kitty 和大耳狗守着一封粉色情书" role="img">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <span class="art-spark spark-one">✧</span><span class="art-spark spark-two">✧</span><span class="art-spark spark-three">✦</span>
+        <div class="floating-heart heart-one">♡</div><div class="floating-heart heart-two">♥</div>
+        <span class="postmark">SENT WITH LOVE<br><b>文文 → 牛牛</b><span>♡ EVERY SINGLE DAY ♡</span></span>
+        <img class="character cinnamon" src="./assets/cinnamon.svg" alt="" width="300" height="200">
+        <div class="envelope-wrap"><div class="envelope-shadow"></div><div class="envelope"><div class="letter-peek"><span>Dear 牛牛,</span><strong>小牛牛<br>Kiss Kiss.</strong><span class="letter-peek-heart">♡</span></div><div class="envelope-back"></div><div class="envelope-fold"></div><div class="wax-seal">♡</div></div></div>
+        <img class="character kitty" src="./assets/kitty.svg" alt="" width="230" height="250">
+        <div class="sticker sticker-love">with love <span>♡</span></div>
+        <span class="art-caption">a pocket full of kisses</span>
+      </div>
+      <a class="scroll-cue" href="#little-things"><span>还有一点点喜欢，往下看</span><span aria-hidden="true">↓</span></a>
+    </section>
+    <div class="ribbon" aria-hidden="true"><div>YOU MAKE MY EVERYDAY SOFT <span>♡</span> 小牛牛 KISS KISS <span>♡</span> YOU MAKE MY EVERYDAY SOFT <span>♡</span> 小牛牛 KISS KISS <span>♡</span></div></div>
+    <section class="little-things section-space" id="little-things" aria-labelledby="things-title">
+      <div class="section-heading reveal"><div><p class="eyebrow">THE LITTLE THINGS</p><h2 id="things-title">关于偏爱，<span>都是你。</span></h2></div><p>没有什么大道理。<br>想做的小事，都想和你一起。</p></div>
+      <div class="wish-grid">
+        <article class="wish-card wish-pink reveal"><span class="card-note">a little closer</span><div class="wish-illustration bow-illustration" aria-hidden="true"><svg viewBox="0 0 200 120"><path d="M92 50C24-7 16 31 30 85C35 101 63 78 94 68M108 50C176-7 184 31 170 85C165 101 137 78 106 68" fill="#e99bb3" stroke="#bd6b88" stroke-width="2"/><path d="M88 64L69 113L96 104L102 76M108 65L131 112L107 104L101 76" fill="#e99bb3"/><path d="M37 40L90 57M164 40L110 57" stroke="#f9cedc" stroke-width="3"/><ellipse cx="100" cy="59" rx="15" ry="20" fill="#f3b4c8" stroke="#bd6b88" stroke-width="2"/></svg></div><h3>想把你抱紧一点</h3><p>再近一点，就能听见心动。</p><span class="card-footer">a hug, just for you <span>♡</span></span></article>
+        <article class="wish-card wish-white reveal"><span class="card-note">a little sweeter</span><div class="wish-illustration" aria-hidden="true"><svg viewBox="0 0 200 120"><path d="M48 55H134V77Q132 109 92 109Q50 108 48 77Z" fill="#fff9fa" stroke="#b97d8e" stroke-width="2"/><path d="M134 60Q171 51 162 78Q156 94 133 88" fill="none" stroke="#b97d8e" stroke-width="5"/><ellipse cx="91" cy="55" rx="43" ry="10" fill="#ead0d4" stroke="#b97d8e" stroke-width="2"/><path d="M79 22Q67 10 78 4M100 29Q86 17 99 8M119 25Q111 17 122 8" stroke="#d7b3c0" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M90 87C63 73 83 64 90 74C100 61 118 76 90 87" fill="#eaa3bb"/><path d="M44 111Q90 123 143 110" fill="none" stroke="#b97d8e" stroke-width="2"/></svg></div><h3>平凡也想和你一起</h3><p>发呆、散步，还有一杯热饮。</p><span class="card-footer">our kind of ordinary <span>♡</span></span></article>
+        <article class="wish-card wish-blue reveal"><span class="card-note">a little longer</span><div class="wish-illustration" aria-hidden="true"><svg viewBox="0 0 200 120"><path d="M42 82C15 66 36 44 57 48C55 14 107 10 116 43C146 26 170 48 160 67C194 81 163 105 141 100H58C26 102 25 85 42 82Z" fill="#fff" stroke="#afc9d7" stroke-width="2"/><path d="M78 63Q82 67 86 63M112 63Q116 67 120 63M94 76Q100 82 106 76" stroke="#809dae" stroke-width="2" fill="none" stroke-linecap="round"/><ellipse cx="79" cy="75" rx="8" ry="4" fill="#f6d3df"/><ellipse cx="121" cy="75" rx="8" ry="4" fill="#f6d3df"/><path d="M155 12L158 22L169 23L160 30L162 41L153 34L143 39L146 28L139 20L150 21Z" fill="#e9c98e"/></svg></div><h3>把下次见面装进口袋</h3><p>等到寒假，把想念都补给你。</p><span class="card-footer">until I see you again <span>♡</span></span></article>
+      </div>
+    </section>
+    <section class="quiz-section section-space" id="quiz" aria-labelledby="quiz-title">
+      <div class="quiz-intro reveal"><p class="eyebrow">A VERY SERIOUS QUESTION</p><h2 id="quiz-title">文文的<br><span>心动小考卷。</span></h2><p>请牛牛同学认真作答。<br>文文已经准备好听答案啦。</p><div class="quiz-doodle" aria-hidden="true"><span class="script">Choose with your heart.</span><svg viewBox="0 0 180 80"><path d="M5 12C50 70 122 15 159 60M145 59L162 62L159 45"/></svg></div><img class="quiz-kitty" src="./assets/kitty.svg" alt="抱着爱心的 Hello Kitty" width="150" height="163" loading="lazy"></div>
+      <div class="quiz-card reveal"><span class="tape" aria-hidden="true"></span><div class="quiz-card-top"><span>仅限牛牛作答</span><span aria-hidden="true">♡</span></div><div id="quiz-question"><p class="question-prefix">文文想问：</p><h3 tabindex="-1" id="question-heading">你最喜欢谁了<span>？</span></h3><div class="answers"><button class="answer" data-answer="A"><span>A</span>文文<i aria-hidden="true">♡</i></button><button class="answer" data-answer="B"><span>B</span>文文<i aria-hidden="true">♡</i></button><button class="answer" data-answer="C"><span>C</span>文文<i aria-hidden="true">♡</i></button><button class="answer" data-answer="D"><span>D</span>不是文文<i aria-hidden="true">♡</i></button></div><p class="quiz-footnote">凭直觉选哦，不许偷看文文的表情。</p></div><div id="quiz-result" class="quiz-result" hidden><span class="result-symbol" aria-hidden="true">♡</span><p class="result-eyebrow" id="result-eyebrow">答案收到啦</p><h3 id="result-message" tabindex="-1"></h3><p id="result-note"></p><button class="button primary" id="retry-quiz" hidden>再做一次 <span aria-hidden="true">↻</span></button><a class="text-link" id="result-next" href="#kiss" hidden>还有一个亲亲要给你 ↓</a></div><div class="quiz-card-bottom"><span>文文出题 · 牛牛专属</span><span id="attempt-label">LOVE NOTE ♡</span></div></div>
+    </section>
+    <section class="kiss-section section-space" id="kiss" aria-labelledby="kiss-title"><div class="kiss-halo" aria-hidden="true"></div><img class="kiss-cinnamon reveal" src="./assets/cinnamon.svg" alt="大耳狗捧着爱心" width="200" height="134" loading="lazy"><p class="eyebrow reveal">AND ONE MORE THING…</p><h2 id="kiss-title" class="reveal">小牛牛，<br><span class="kiss-script">Kiss Kiss.</span></h2><p class="kiss-caption reveal">文字有点轻，喜欢你这件事很重。</p><button class="kiss-button reveal" id="send-kiss" aria-label="收下文文的亲亲"><span aria-hidden="true">♡</span></button><p class="kiss-hint" id="kiss-hint" aria-live="polite">点一下，收下文文的亲亲</p><div class="closing-signature">一直喜欢你的 <span>文文</span><svg viewBox="0 0 80 30" aria-hidden="true"><path d="M3 18Q40 2 75 17M30 23Q50 12 68 20"/></svg></div></section>
+  </main>
+  <footer><a href="#home">w ♡ n</a><p>在这个小小的角落，偏爱只属于牛牛。</p><span>Made with all my love.</span></footer>
+  <dialog id="letter-dialog" aria-labelledby="letter-title"><button class="dialog-close" id="close-letter" aria-label="关闭情书">×</button><div class="letter-paper"><p class="eyebrow">A LETTER, JUST FOR YOU</p><h2 id="letter-title">亲爱的小牛牛：</h2><p>这封信很短，<br>但文文的喜欢，有很长很长。</p><p>想和你贴贴，想听你碎碎念，<br>想在见到你的时候，先抱你一下。</p><p class="letter-kiss">小牛牛，Kiss Kiss <span>♡</span></p><p class="letter-sign">一直喜欢你的<br><strong>文文</strong></p></div></dialog>
+  <noscript><p class="noscript-note">请开启 JavaScript，拆开文文的情书、回答小考卷，收下亲亲。</p></noscript>
+</body>
+</html>
